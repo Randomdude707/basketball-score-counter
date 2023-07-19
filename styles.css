@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Cursed Timer Ulil';
+    src: url(./fonts/CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    background-color: #1b244a;
+}
+
+h1{
+    font-family: verdana;
+    color: white;
+}
+.score-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.counter{
+    width: 155px;
+    height: 120px;
+    background-color: black;
+    color: #F94F6D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer Ulil';
+    font-size: 4rem;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:1rem;
+}
+.add-counter-buttons{
+    padding-top: 1rem;
+}
+svg{
+    padding: .2rem;
+}
+button{
+    font-family: 'Cursed Timer Ulil';
+    font-size: 2rem;
+    color: white;
+    background-color: #F94F6D;
+    outline-style: none;
+    outline: none;
+    border: none;
+}
